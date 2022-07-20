@@ -22,6 +22,6 @@ struct RowView: View {
 
 struct RowView_Previews: PreviewProvider {
     static var previews: some View {
-        RowView(image: SystemImages.email.rawValue, contact: Person.getInfoPerson().first!.email)
+        RowView(image: SystemImages.email.rawValue, contact: Person.getInfoPerson()[0].email)
     }
 }

@@ -12,7 +12,7 @@ struct DescriptionContact: View {
     let person: Person
     
     var body: some View {
-        Form {
+        Form { // данный тип позволяет задавать статичные строки для табличного представления (все что в нем помещено будет отражено в строках)
             HStack {
                 Spacer()
                 Image(systemName: SystemImages.avatar.rawValue)
